@@ -1,0 +1,62 @@
+/*
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+}
+*/
+
+body {
+    /*    position: relative;*/
+    height: 96vh;
+    background-color: black;
+}
+
+p {
+    margin: 50px 0;
+/*        border: 1px green solid;*/
+}
+
+#textholder {
+    position: relative;
+    top: 50%;
+/*    left: 50%;*/
+    height: 50%;
+    transform: translateY(-50%);
+/*    border: 1px orange solid;*/
+}
+
+#startScreen {
+/*    background-image: url(../img/dishes_bg_12k.jpg);*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 563px;
+/*    display: none;*/
+    font: 1.6em 'Press Start 2P';
+    color: orange;
+/*    border: 1px red solid;*/
+}
+
+#gameCanvas {
+    background-image: url(../img/dishes_bg_12k.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: orange;
+    font: 2.5em 'Press Start 2P';
+    width: 1000px;
+    /*    border: 1px solid red;*/
+    margin: 15px auto 0 auto;
+}
